@@ -1,0 +1,4 @@
+{
+    "name": "fish-server",
+    "scan": "../../app/lobby/"
+}

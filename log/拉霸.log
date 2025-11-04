@@ -1,0 +1,10 @@
+[2020-08-04T21:51:12.460] [ERROR] default - Error: 14 UNAVAILABLE: failed to connect to all addresses
+    at Object.exports.createStatusError (/mnt/f/server/node_modules/grpc/src/common.js:91:15)
+    at Object.onReceiveStatus (/mnt/f/server/node_modules/grpc/src/client_interceptors.js:1209:28)
+    at InterceptingListener._callNext (/mnt/f/server/node_modules/grpc/src/client_interceptors.js:568:42)
+    at InterceptingListener.onReceiveStatus (/mnt/f/server/node_modules/grpc/src/client_interceptors.js:618:8)
+    at callback (/mnt/f/server/node_modules/grpc/src/client_interceptors.js:847:24) {
+  code: 14,
+  metadata: Metadata { _internal_repr: {}, flags: 0 },
+  details: 'failed to connect to all addresses'
+}

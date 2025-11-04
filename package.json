@@ -1,35 +1,44 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "start": "ts-node src/main.ts",
-    "typeorm": "typeorm-ts-node-commonjs"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@alicloud/dysmsapi20170525": "^2.0.24",
-    "@alicloud/openapi-client": "^0.4.8",
-    "@alicloud/tea-console": "^1.0.0",
-    "@alicloud/tea-typescript": "^1.8.0",
-    "@alicloud/tea-util": "^1.4.7",
-    "@types/node": "^20.11.19",
-    "debug": "^4.3.4",
-    "express": "^4.18.2",
-    "fs": "^0.0.1-security",
-    "ioredis": "^5.3.2",
-    "log4js": "^6.9.1",
-    "mysql": "^2.18.1",
-    "mysql2": "^3.9.1",
-    "protobufjs": "^7.2.6",
-    "reflect-metadata": "^0.2.1",
-    "socket.io": "^4.7.4",
-    "socket.io-client": "^4.7.4",
-    "typeorm": "^0.3.20"
-  },
-  "devDependencies": {
-    "@types/node": "^20.11.28"
-  }
+    "name": "server",
+    "bin": "server.js",
+    "scripts": {
+        "dev": "supervisor server.js",
+        "debug-admin": "supervisor ./app/lobby/admin.js",
+        "fish": "pm2 start --name fish ./server.js -- -a fish -p 10000 -f 100",
+        "build": "pkg -t node10-linux-x64 ."
+    },
+    "dependencies": {
+        "@grpc/proto-loader": "^0.5.4",
+        "alipay-sdk": "^3.1.1",
+        "axios": "^0.19.0",
+        "bearcat": "^0.4.29",
+        "cookie-parser": "^1.4.5",
+        "crypto": "^1.0.1",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "fs": "0.0.1-security",
+        "google-protobuf": "^3.12.2",
+        "grpc": "^1.24.2",
+        "install": "^0.13.0",
+        "log4js": "^5.3.0",
+        "minimist": "^1.2.5",
+        "moment": "^2.26.0",
+        "mysql": "^2.17.1",
+        "node-uuid": "^1.4.8",
+        "nodejs-websocket": "^1.7.2",
+        "npm": "^6.14.5"
+    },
+    "pkg": {
+        "scripts": [
+            "app/**/*",
+            "publics/*"
+        ],
+        "assets": [
+            "bearcat/*",
+            "config/**/*"
+        ]
+    },
+    "devDependencies": {
+        "grpc-tools": "^1.9.0"
+    }
 }

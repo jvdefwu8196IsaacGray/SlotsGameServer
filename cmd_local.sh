@@ -1,1 +1,1 @@
-node --enable-source-maps ./build/src/main.js
+git node --enable-source-maps ./build/src/main.js

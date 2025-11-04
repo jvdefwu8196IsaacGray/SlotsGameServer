@@ -1,0 +1,4 @@
+{
+    "name": "slwh-server",
+    "scan": "../../../app/yafen/slwh/"
+}

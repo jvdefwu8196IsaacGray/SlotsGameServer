@@ -1,0 +1,100 @@
+syntax = "proto3";
+
+package rpc;
+
+service RouteGuide  {
+  rpc addChipsSync(addChipsSyncArgs) returns(addChipsResult) {}
+  rpc addChipsLaba(addChipsLabaArgs) returns(addChipsResult) {}
+  rpc addChipsDelay(addChipsDelayArgs) returns(addChipsDelayResult) {}
+  rpc changeSync(changeSyncArgs) returns(result) {}
+  rpc checkToken(checkTokenArgs) returns(checkTokenResult) {}
+  rpc popRobot(RobotCount) returns(Robots) {}
+  rpc pushRobot(Robots) returns(result) {}
+}
+
+message result {
+  required int32 code = 1;       // 10000 成功 10001 错误 10002 警告
+  optional string message = 2;  // 返回信息
+}
+
+message sendMarqueenArgs {
+  required string message = 1;
+}
+
+message sendMarqueenResult {
+  required bool code = 1;       // 10000 成功 10001 错误 10002 警告
+  optional string message = 2;  // 返回信息
+}
+
+message addChipsSyncArgs {
+  required int32 kid = 1;
+  required int32 uid = 2;
+  required int64 chips = 3;
+  optional string comment = 4;
+  optional string message = 5;
+}
+
+message addChipsLabaArgs {
+  required int32 kid = 1;
+  required int32 uid = 2;
+  required int64 chips = 3;
+  required int64 rechips = 4;
+  optional string message = 5;
+}
+
+message addChipsResult {
+  required int32 code = 1;       // 10000 成功 10001 错误 10002 警告
+  optional string message = 2;  // 返回信息
+  optional int64 chips = 3;     // 用户当前筹码
+}
+
+message ChipsArray{
+  required int32 uid = 1;
+  required int64 chips = 2;
+}
+
+message addChipsDelayArgs {
+  required int32 kid = 1;
+  repeated ChipsArray data = 2;
+  optional string comment = 3;
+}
+
+message addChipsDelayResult {
+  required int32 code = 1;       // 10000 成功 10001 错误 10002 警告
+  optional string message = 2;  // 返回信息
+}
+
+message changeSyncArgs {
+  repeated int32 players = 2;
+}
+
+message checkTokenResult {
+  required int32 code = 1;       // 10000 成功 10001 错误 10002 警告
+  optional string message = 2;  // 返回信息
+  optional int64 chips = 3;     // 用户当前筹码
+  optional string nickname = 4; // 用户名称
+  optional int32 vipLevel = 5;  // 会员等级
+}
+
+message checkTokenArgs {
+  required int32 uid = 1;
+  required string token = 2;
+}
+
+message Robot {
+  required int32 uid = 1;
+  required int64 chips = 2;
+  required int32 vipLevel = 3;
+  required string nickname = 4;
+}
+
+message Robots {
+  required int32 code = 1;
+  repeated Robot robots = 2;
+}
+
+message RobotCount {
+  required int32 count = 1;
+}
+
+

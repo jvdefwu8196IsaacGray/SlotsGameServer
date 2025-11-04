@@ -1,0 +1,744 @@
+[2020-07-23T00:59:54.709] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:271:29
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:314:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-07-26T14:42:31.713] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-07-29T04:51:27.677] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-07-29T07:53:39.146] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-07-29T07:53:53.376] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-07-29T13:22:53.070] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-07-30T08:16:44.128] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-07-30T18:17:28.795] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:196:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:17:29.422] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:351:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:17:30.595] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:196:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:17:31.313] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:351:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:17:31.660] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:266:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:17:32.478] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:521:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:17:33.402] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:196:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:17:34.727] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:196:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:18:40.231] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:351:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:19:59.188] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:196:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:20:30.270] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:351:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:20:30.825] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:196:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:21:27.096] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:196:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:21:32.047] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:196:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:21:33.155] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:196:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:22:32.120] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:353:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:22:32.614] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:198:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:23:51.695] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:198:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:24:23.345] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:353:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:24:23.855] [ERROR] default - ReferenceError: Invalid left-hand side expression in prefix operation
+    at /mnt/f/server/app/lobby/admin.js:198:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:25:17.753] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:353:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:25:18.263] [ERROR] default - ReferenceError: Invalid left-hand side expression in prefix operation
+    at /mnt/f/server/app/lobby/admin.js:198:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:25:24.580] [ERROR] default - ReferenceError: Invalid left-hand side expression in prefix operation
+    at /mnt/f/server/app/lobby/admin.js:198:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:25:26.215] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:353:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:25:26.811] [ERROR] default - ReferenceError: Invalid left-hand side expression in prefix operation
+    at /mnt/f/server/app/lobby/admin.js:198:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:25:40.927] [ERROR] default - TypeError: Assignment to constant variable.
+    at /mnt/f/server/app/lobby/admin.js:353:18
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/mnt/f/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/mnt/f/server/node_modules/express/lib/router/layer.js:95:5)
+    at /mnt/f/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/mnt/f/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/mnt/f/server/node_modules/express/lib/router/index.js:275:10)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:127:14)
+    at next (/mnt/f/server/node_modules/express/lib/router/route.js:131:14)
+[2020-07-30T18:25:41.507] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'cheat' in 'field list'
+    at Query.Sequence._packetToError (/mnt/f/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/f/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/f/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/f/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/f/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/mnt/f/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/mnt/f/server/node_modules/mysql/lib/Connection.js:198:25)
+    at /mnt/f/server/app/lobby/db.js:51:14
+    at new Promise (<anonymous>)
+    at Object.exports.query (/mnt/f/server/app/lobby/db.js:49:12)
+    at /mnt/f/server/app/lobby/admin.js:227:32
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'cheat' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select id,username,phone,nickname,chips,cheat,totalRecharge,totalCash,vipLevel,auth from dmg_users  order by id asc limit 0,10'
+}
+[2020-07-30T18:25:46.415] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'cheat' in 'field list'
+    at Query.Sequence._packetToError (/mnt/f/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/f/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/f/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/f/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/f/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/mnt/f/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/mnt/f/server/node_modules/mysql/lib/Connection.js:198:25)
+    at /mnt/f/server/app/lobby/db.js:51:14
+    at new Promise (<anonymous>)
+    at Object.exports.query (/mnt/f/server/app/lobby/db.js:49:12)
+    at /mnt/f/server/app/lobby/admin.js:227:32
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'cheat' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select id,username,phone,nickname,chips,cheat,totalRecharge,totalCash,vipLevel,auth from dmg_users  order by id asc limit 0,10'
+}
+[2020-07-30T18:28:00.295] [ERROR] default - Error: ER_BAD_FIELD_ERROR: Unknown column 'cheat' in 'field list'
+    at Query.Sequence._packetToError (/mnt/f/server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/mnt/f/server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/mnt/f/server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/mnt/f/server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/mnt/f/server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/mnt/f/server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/mnt/f/server/node_modules/mysql/lib/Connection.js:198:25)
+    at /mnt/f/server/app/lobby/db.js:51:14
+    at new Promise (<anonymous>)
+    at Object.exports.query (/mnt/f/server/app/lobby/db.js:49:12)
+    at /mnt/f/server/app/lobby/admin.js:227:32
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'cheat' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'select id,username,phone,nickname,chips,cheat,totalRecharge,totalCash,vipLevel,auth from dmg_users  order by id asc limit 0,10'
+}
+[2020-08-02T11:38:34.093] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-08-03T04:24:34.089] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-08-04T03:17:57.334] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-08-04T22:35:09.943] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-08-04T23:10:28.678] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-06-17T02:07:22.916] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-06-18T01:00:31.534] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-08-13T08:06:31.028] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-08-13T08:06:47.270] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-08-13T08:06:58.457] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-08-14T21:52:50.488] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2020-09-18T05:28:33.231] [ERROR] default - 初始化AI系统错误... Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+    --------------------
+    at Protocol._enqueue (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/mnt/f/server/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/mnt/f/server/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/mnt/f/server/node_modules/mysql/lib/Pool.js:48:16)
+    at /mnt/f/server/app/lobby/db.js:25:12
+    at new Promise (<anonymous>)
+    at Object.exports.getConn (/mnt/f/server/app/lobby/db.js:23:12)
+    at /mnt/f/server/app/lobby/rpc-server.js:275:25
+    at Object.<anonymous> (/mnt/f/server/app/lobby/rpc-server.js:321:3)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
