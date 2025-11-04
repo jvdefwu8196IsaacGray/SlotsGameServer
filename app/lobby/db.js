@@ -3,7 +3,7 @@ const mysql = require("mysql");
 // const db = mysql.createPool({
 //     host     : 'rm-wz995i1zo270aa9h3.mysql.rds.aliyuncs.com',
 //     user     : 'root',
-//     password : 'Junyu123',
+//     password : '2222',
 //     database : 'dmg',
 //     connectionLimit: 5,
 //     timezone: "08:00"
@@ -106,4 +106,5 @@ exports.release = function(conn, rollback)
         
     });
 }
+
 
