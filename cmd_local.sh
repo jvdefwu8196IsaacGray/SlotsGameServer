@@ -1,0 +1,1 @@
+node --enable-source-maps ./build/src/main.js
